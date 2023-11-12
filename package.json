@@ -1,0 +1,19 @@
+{
+  "name": "pinecone-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pinecone-database/pinecone": "^1.1.2",
+    "dotenv": "^16.3.1",
+    "langchain": "^0.0.182",
+    "pdf-parse": "^1.1.1"
+  },
+  "type": "module"
+}
