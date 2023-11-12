@@ -26,9 +26,9 @@ const client = new Pinecone({
 });
 
 (async () => {
-  // await createPineconeIndex(client, indexName, vectorDimension);
+  await createPineconeIndex(client, indexName, vectorDimension);
 
-  // await updatePinecone(client, indexName, docs);
+  await updatePinecone(client, indexName, docs);
 
   await queryPineconeVectorStoreAndQueryLLM(client, indexName, question);
 })();
